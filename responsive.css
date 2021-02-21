@@ -1,0 +1,77 @@
+@media only screen and (max-width: 991px){
+.mobile-menu {
+    display: block;
+}
+.header {
+    padding: 15px 0;
+}
+.navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+}
+.searcg-bg input {
+    width: 368px;
+    margin-bottom: 10px;
+}
+.nav-left li a,.nav-left li,.right-nav li,.right-nav li .btn {
+    font-size: 14px;
+}
+.right-nav li {
+    margin-left: 23px;
+}
+.nav-left li {
+    margin-right: 18px;
+}
+.search_btn {
+    width: 100%;
+     margin-left: 0px; margin-top:10px
+}
+.search_btn{width: 368px;}.hr-mt30{margin-top:65px;}
+}
+@media only screen and (max-width: 575px){
+.footer-widget-main > .footer-widget {
+    width: 100%;
+}
+card-custom{
+    margin-top: 30px;
+}
+}
+@media only screen and (max-width: 767px){
+    .bannar-bg .container {
+        position: absolute;
+        top: 16px;
+        left: 0;
+        right: 0;
+        bottom: 0px;
+    }
+   
+.searcg-bg {
+    margin-bottom: 45px;
+}
+    .right-nav li {
+        margin-bottom: 26px;
+    }
+    .header nav {
+        display: flex;    flex-wrap: nowrap;    align-items: end;width: auto;
+    }
+    .right-list{margin-top: 22px;}
+    .nav-left, .right-nav {
+        display: initial;
+    }
+    
+.list-col {
+    width: 100%;
+}
+.search_btn {
+    width: 98%;
+    height: 45px;
+    margin-top: 12px;
+}
+.searcg-bg input {
+    width: 100%;
+}.brand {
+    margin-right: 20px;
+}
+.feedback{display: none;}
+.hr-mt30{margin-top:25px;}
+}

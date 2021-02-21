@@ -1,0 +1,626 @@
+a {
+    color: #181818;
+  }
+
+  ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    outline: none;
+    outline-color: inherit;
+  }
+
+  .clearfix {
+    clear: both;
+    width: 100%;
+    display: block;
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  button {
+    outline-color: inherit;
+    outline: none;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #181818;
+  }
+  .searcg-bg {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .main-search {
+    padding: 154px 0px 51px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+  }
+
+  .brand {
+    margin-right: 30px;
+  }
+
+  .searcg-bg input {
+    width: 560px;
+    outline: none;
+    height: 45px;
+    border-radius: 5px;
+    border: 0;
+    padding: 0 15px;
+    font-size: 15px;
+    color: #777777;
+    box-shadow: none;
+  }
+
+  .search_btn {
+    width: 23%;
+    height: 45px;
+    border: 0px;
+    background: #1db153;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .profile-card {
+    box-shadow: 0px 0px 24px #00000029;
+    border-radius: 12px;
+    padding: 20px;
+    border: 0;
+  }
+
+  .profile-pic {
+    position: absolute;
+    top: -31px;
+    left: 50%;
+    margin-left: -31px;
+  }
+
+  .profile-pic img {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+  }
+
+  .profile-name .user-name {
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+  }
+
+  .personal-info .emp-info span {
+    overflow: hidden;
+    display: inline-block;
+    max-width: 200px;
+    margin-right: 2px;
+    color: #777777;
+  }
+
+  .personal-info .emp-info span {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+
+  .profile-card .user-name {
+    font-size: 22px;
+    font-weight: 500;
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    margin-top: 26px;
+  }
+
+  .roboto-thin-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+  }
+
+  .profile-complete {
+    overflow: hidden;
+    margin-bottom: 10px;
+    color: #4a90e2;
+    margin-top: 14px;
+  }
+
+  .profile-complete span {
+    color: #1FB154;
+    font-size: 14px;
+  }
+
+  .main-color {
+    color: #1FB154;
+  }
+
+  .profile-complete .progress {
+    border-bottom: 1px solid #4a90e2;
+    height: 6px;
+    clear: both;
+    background: 0 0;
+  }
+
+  .profile-complete .progress .determinate {
+    background-color: #1FB154;
+  }
+
+  .progress .determinate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    transition: width .3s linear;
+  }
+
+  .progress {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .hr-mt20 {
+    margin-top: 20px;
+  }
+
+  .performance {
+    font-size: 14px;
+    color: #313131;
+    font-weight: 500;
+  }
+
+  .hr-p0 {
+    padding: 0px
+  }
+
+  .pf-text {
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 13px;
+  }
+
+  .maincount {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .maincount a {
+    display: inline-block;
+    padding: 7px 10px;
+    width: 48%;
+    color: #1FB154;
+    text-align: left;
+    box-shadow: 0px 1px 2px #00000029;
+  }
+
+  .count {
+    font-size: 18px;
+  }
+
+  .down-wrapper {
+    margin: 0 -35px -20px;
+    background: #f5f5f5;
+    border-radius: 0 0 2px 2px;
+    padding: 12px 40px 12px;
+    border-radius: 0px 0px 12px 12px;
+    text-align: left;
+  }
+
+  .service1 {
+    font-size: 13px;
+    color: #1FB154;
+  }
+
+  .service2 {
+    font-size: 13px;
+    color: #9A9A9A;
+  }
+
+  .skill-progress {
+    margin-top: 14px;
+    border: 1px solid #D3D3D3;
+    border-radius: 19px;
+    padding: 16px;
+    font-size: 13px;
+    color: #1e223c;
+  }
+
+  .list-skill {
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .sk-progress {
+    height: 8px;
+    width: 100%;
+    margin-top: 6px;
+    border-radius: 4px;
+    background-color: #BDEACD;
+  }
+
+  .list-bars {
+    margin-bottom: 12px;
+  }
+
+  .click-sub {
+    font-size: 12px;
+  }
+
+  .top-company {
+    font-size: 16px;
+    font-weight: 600;
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+  }
+
+  .company-logo {
+    height: 45px;
+    margin: 2% 3% 0% 1%;
+    float: left;
+  }
+
+  .company-logo img {
+    width: 100px;
+  }
+
+  .c-list {
+    padding-left: 6px;
+    list-style: none;
+    margin-top: 12px;
+    width: 50%;
+    float: left;
+  }
+
+  .c-list li {
+    font-size: 12px;
+    color: #5F5F5F;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+    overflow: hidden;
+    margin-bottom: 2px;
+    max-width: 200px;
+  }
+
+  .faq {
+    padding: 18px 20px 10px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #D1D1D1;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .txt-color {
+    color: #484848;
+  }
+
+  .txt2-color {
+    color: #777777;
+  }
+
+  .faq-ask {
+    font-size: 12px;
+    padding: 12px 20px 14px 20px;
+  }
+
+  .user-desig h5 {
+    font-weight: 500;
+    margin-bottom: 1px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .user-desig .sup-head {
+    font-size: 12px;
+    color: #777777;
+    margin-bottom: 12px;
+  }
+
+  .user-desig .exp {
+    width: 14%;
+    display: inline-block;
+  }
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: auto;
+}
+  .job-overview {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+    overflow: hidden;
+    max-width: 670px;
+  }
+
+  .job-state li {
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #ccc;
+  }
+
+  .job-state li:first-child {
+    color: #1FB154;
+    font-size: 16px;
+    list-style: none;
+    margin-bottom: 6px;
+  }
+
+  .list-col {
+    width: 33.33%;
+    padding: 0 15px;
+  }
+
+  footer {
+    background: #2b2b2b;
+    padding: 20px 0px 0px;
+    margin-top: 60px;
+  }
+
+  .sub-footer ul li {
+    display: inline;
+    padding: 0px 16px;
+  }
+
+  .sub-footer ul {
+    margin-bottom: 10px;
+  }
+
+  .sub-footer {
+    text-align: center;
+    margin: 8px 0px;
+    color: #ababab;
+  }
+
+  .copyright-footer p {
+    margin: 0px;
+    font-size: 14px;
+  }
+
+  .copyright-footer {
+    background: #121212;
+  }
+
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;padding: 0px;
+  }
+
+  .header nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-left,
+  .right-nav {
+    display: flex;
+    padding-left: 0px;
+    align-items: center;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+  }
+
+  .nav-left li a {
+    color: #06060c;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .nav-left li {
+    margin-right: 25px;
+    list-style: none;
+    position: relative;
+    padding: 20px 0;
+  }
+
+  .btn {
+    display: inline-block;
+    background: #1db153;
+    border: 1px solid #1db153;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+
+  .btn.btn-default {
+    background: #fff;
+    color: #1db153;
+  }
+
+  .right-nav li {
+    margin-left: 32px;
+    list-style: none;
+  }
+
+  .fn-18 {
+    font-size: 18px;
+  }
+
+  .scroll-top {
+    position: fixed;
+    z-index: 9;
+    bottom: 10px;
+    right: 10px;
+    background: #272974;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+
+  .feedback {
+    position: fixed;
+    bottom: -53px;
+    left: -70px;
+    width: 130px;
+    height: 120px;
+    background: #272974;
+    cursor: pointer;
+    -ms-transform: rotate(-50deg);
+    transform: rotate(50deg);
+    z-index: 9;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .feedback::before {
+    content: 'Feedback';
+    background-color: transparent;
+    color: #fff;
+    position: absolute;
+    bottom: 90px;
+    right: 33px;
+    z-index: 99999;
+    font-size: 14px;
+  }
+  .bannar-bg .img{
+    width: 100%;
+      height: 400px;
+      object-fit: cover;
+      object-position: 0 0;
+}
+  .bannar-bg .container {
+    position: absolute;
+    top: 158px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+  }
+
+  .fast-grow {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2B3959;
+  }
+
+  .manage-alert {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D1D1D1;
+    padding: 24px 28px 13px 24px;
+  }
+
+  .playstore a {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 150px;
+  }
+
+  .footer-link ul>li::before {
+    content: "";
+    width: 1px;
+    top: 3px;
+    bottom: 4px;
+    position: absolute;
+    right: 0px;
+    background: #ccc;
+  }
+  .mobile-menu .menu-btn {
+    background: none;
+    border: none;
+    padding: 0px;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    color: #272974;
+}
+.mobile-menu {
+    display: none;
+    margin: 0 0 0 auto;
+}
+  .footer-link ul>li:last-child::before {
+    content: none;
+  }
+
+  .footer-link ul>li::before {
+    content: "";
+    width: 1px;
+    top: 3px;
+    bottom: 4px;
+    position: absolute;
+    right: 0px;
+    background: #ccc;
+  }
+
+  .footer-link ul>li {
+    padding: 0 15px;
+    position: relative;
+    font-size: 14px;
+  }
+  .scroll-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 13px;
+    top: 8px;
+    font-size: 24px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
