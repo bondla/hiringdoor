@@ -88,7 +88,7 @@ a {
     .custom-table table td{
     padding: 24px 25px;
 }
-.custom-table table{box-shadow: 0px 0px 24px #00000029;display:inline-table;border-radius: 12px;font-size: 12px;}
+.custom-table table{box-shadow: 0px 0px 24px #00000029;display:inline-table;border-radius: 12px;font-size: 14px;}
 .owner-name{background: #777777;
     padding: 6px 16px;
     border-radius: 10px;
