@@ -1,0 +1,86 @@
+@media only screen and (max-width: 991px) {
+   
+  }
+  @media only screen and (max-width: 575px) {
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .professional {
+        margin: 0px 17px 0px 0px;
+         width: auto;
+        min-height: 180px;
+    }
+    .custom-corousel .carousel-caption {
+        padding: 0px 40px;
+    }
+    .entry-level-txt {
+        min-height: auto;
+    }
+    .mt-xs{margin-top: 10px;}
+    .text-wrap{word-break: break-all;}
+}
+  @media only screen and (max-width: 767px) {
+    .entry-level-txt {
+        font-size: 14px;
+        min-height: 150px;    margin-bottom: 20px;
+    }
+    .tab-subpara {
+        font-size: 14px;
+    }
+    .cv-tabs .nav-link {
+        padding: 14px 5px;font-size: 14px;
+    }
+    .cv-tabs .nav-tabs .nav-item.show .nav-link, .cv-tabs .nav-tabs .nav-link.active {
+        padding: 15px 0px;
+    }
+    .cv-tabs {
+        padding: 20px;
+    }
+    .header-bg .main-dream {
+        font-size: 1.6rem;
+    }
+    .cv-heading {
+        font-size: 0.9rem;
+    }
+    .cv-tabs h1{font-size: 1.5rem;}
+    .contact-cv {
+        padding: 20px 30px;
+        width: 100%;
+    }
+    .custom-corousel .carousel-caption p {
+        font-size: 16px;
+    }
+    .custom-corousel .carousel-caption {
+        padding: 0px 32px;
+    }
+    .cv-testmonals p {
+        font-size: 15px;
+    }
+    .cv-samples ul li {
+        font-size: 18px;
+    }
+    .d-flex {
+        display: block !important;
+    }
+    .professional {
+        display: inline-flex;
+        width: 45%;
+        margin: 0px 0px 17px 16px;
+    }
+    .table-days table tbody tr td,.table-days table tr th {
+        padding: 9px;
+    }
+    .table-days {
+        padding: 18px 18px;
+    }
+    .custom-corousel .carousel {
+        min-height: auto;
+    }
+    .paid-amount li:nth-last-child(1) {
+        width: 48%;
+  }
+  .down-arrow {
+    bottom: -44px;
+  }
+  .mt-xs{margin-top: 10px;}
+}
+  
