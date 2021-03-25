@@ -1,0 +1,10 @@
+
+
+--->green section size box shoud be small and icons should be taken from nakuri
+--->Talk to us text need to be changed to call me back
+---->Resume Delivery time box should expand the width
+
+--->remove border radius in resume
+
+close buuton
+and icons

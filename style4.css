@@ -1,0 +1,183 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #181818;}
+   .upload_resumebg{background: linear-gradient(180deg, #1FB154, #262A74);height: 399px;position: absolute;width: 100%;}
+   .header_txtbig{color: #fefffe;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 42px;
+    margin-bottom: 20px;}
+    .header_txtsmall{color: #fefffe;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;}
+    .upload_header{text-align: center;
+    color: #fff;
+    padding: 40px 0px 40px;}
+    .upload_main_section{position: relative;
+    top: 50px;}.drop_resume{background: #FFFFFF;
+box-shadow: 0px 3px 24px #00000017;padding: 61px 66px;border-radius: 24px;}
+.upload_leftcontent{display: inline-block;
+    vertical-align: top;
+    width: 374px;}
+    .upload_rightcontent{display: inline-block;
+    vertical-align: top;
+    width: 564px;
+    padding: 39px 33px 39px;
+    text-align: center;
+border: 1px solid #2089E3;min-height: 418px;border-radius: 25px;}
+.dark-blue{color: #262A74;}
+.cv-review h2{font-weight: bold;margin-top: 40px;margin-bottom: 80px;}
+.cv-review{padding: 60px 0px;text-align: center;}
+.professional i {
+    font-size: 48px;
+    color: #1FB154;
+    padding: 8px;
+    margin-bottom: 10px;
+}.professional {
+    border: 1px solid #1FB154;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 23px;
+    text-align: center;
+    box-shadow: 0px 0px 32px #00000014;
+    min-height: 263px;    margin-top: 20px;
+}
+.professional i {
+    font-size: 48px;
+    color: #1FB154;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.professional .inner-paragraph {
+    font-size: 13px;
+    color: #777777;
+}
+.cv-expert:nth-last-child(1){
+    margin: 0px;
+}
+.inner-sub{ color: #262A74;
+    font-size: 15px;
+    margin-bottom: 16px;margin-top: 10px;}
+    .list-cv{background: #D9D9D9;
+    width: 44px;
+    border-radius: 50%;
+    height: 44px;
+    font-size: 29px;
+    margin: auto;display:inline-block}
+    .cv-expert{margin: 0px 50px 0px 0px;
+    width: 58%;}
+    .upload-faq h2{    padding: 50px 0px;font-weight: bold;
+    text-align: center;color: #fff;}
+    .upload-faq{background-color: #1FB1A6;    margin-top: 60px;}
+    .custom_accordion .card {
+    background-color: transparent;
+    background-clip: border-box;
+    border-radius: 0;
+    border-top: 1px solid rgba(0,0,0,.125);    border-left: 0;
+    border-right: 0;border-bottom: 0;
+}
+.custom_accordion .card-header {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,.125);    padding: 1.0rem 1.25rem;
+}
+.custom_accordion .card-header a{color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;}
+    .custom_accordion .card-body{color: #fff;}
+    .custom_accordion .acc-active:after {
+  content: "\f106";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  float: right;
+}
+.custom_accordion .acc-active.collapsed:after {
+    content: "\f107";
+}.faster_cv .container{padding: 100px 0px;
+    text-align: center;}
+.faster_cv button{    background: #1FB154;
+    border: 1px solid #1FB154;
+    border-radius: 11px;
+    color: #fff;
+    padding: 14px 50px;
+    font-size: 14px;
+    outline: none;}
+    .faster_cv p{    font-size: 22px;
+    color: #A0A0A0;
+    margin-bottom: 50px;}
+    .faster_cv h1{font-weight: bold;
+    color: #262A74;}
+    .need-help .container{background: #F5F5F5;
+    border-radius: 26px;
+    padding: 30px 55px;}
+    .need-help .container i{        font-size: 26px;
+    border-radius: 50%;
+    border: 1px solid #2089E3;
+    padding: 14px;
+    box-shadow: 0px 8px 24px #00000029;margin-bottom: 30px;display: inline-block;}
+    .contact-cv{      box-shadow: 0px 8px 24px #00000029;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 20px 30px;
+    width: 32%;
+    margin-top: 48px;
+    margin-bottom: 31px}.need-help h2,.sample-copy h2,.resume-delivery h2,.cv h2,.cv-tabs h1,.cv-testmonals h2{font-weight: bold;}.contact-cv span{color: #777777;}
+    .contact-cv div{margin-top: 10px;
+    color: #2784fc;}
+    .table-days table tr th {    
+    color: #262A74;
+    padding: 12px;border-bottom: 1px solid #CBCBCB;
+}
+.deliver-subheading{font-size: 16px;
+    margin-bottom: 6px;
+    color: #3C3C3C;}.deliver-subheading span{color: #707179;}
+    .custom_accordion{padding-bottom: 100px;}
+    .upload_img{    width: 316px;
+    height: 215px;
+    margin-top: 55px;
+    margin-bottom: 40px;}
+    .resumeupload_imgtxt{text-align: center;
+    margin-right: 103px;
+    font-size: 19px;
+    color: #262A74;font-weight: 600;}
+    .imgfoot_text{text-align: center;
+    margin-right: 70px;}
+    .imgfoot_text div{    font-size: 19px;
+    color: #454545;}
+    .imgfoot_text a{font-size: 19px;
+    color: #2089E3 !important;
+    text-decoration: underline !important;}
+    .score-txt{color: #3C3C3C;
+    font-size: 22px;
+    font-weight: 600;}
+    .score-txtsub{color: #777777;
+    font-size: 17px;}
+    .upload_rightcontent i{    font-size: 60px;
+    margin-top: 25px;
+    display: inline-block;
+    margin-bottom: 20px;}
+    .drag{font-size: 18px;
+    color: #434343;}
+    .browse_txt{font-size: 16px;
+    color: #777777;}
+    .browse_btn{font-size: 18px;
+    color: #2089E3;
+    text-decoration: underline;}
+    .terms{font-size: 11px;
+    color: #777777;
+    margin-top: 16px;}
+    .fetchhiring{color: #fff;
+    background-color: #1FB154;
+    border: 1px solid #1FB154;
+    width: 246px;
+    height: 44px;
+    border: 1px solid #1FB154;
+    border-radius: 8px;
+    font-size: 13px;}
+    .or{    margin: 22px auto 25px;
+    color: #777777;
+    font-size: 14px;}
+    .file-types{color: #888995;
+    font-size: 12px;}
