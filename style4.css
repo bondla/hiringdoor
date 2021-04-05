@@ -19,7 +19,7 @@ body {
 box-shadow: 0px 3px 24px #00000017;padding: 61px 66px;border-radius: 24px;}
 .upload_leftcontent{display: inline-block;
     vertical-align: top;
-    width: 374px;}
+    width: 439px;}
     .upload_rightcontent{display: inline-block;
     vertical-align: top;
     width: 564px;
@@ -43,6 +43,8 @@ border: 1px solid #2089E3;min-height: 418px;border-radius: 25px;}
     text-align: center;
     box-shadow: 0px 0px 32px #00000014;
     min-height: 263px;    margin-top: 20px;
+    margin: 0px 50px 0px 0px;
+    width: 58%;
 }
 .professional i {
     font-size: 48px;
@@ -54,20 +56,13 @@ border: 1px solid #2089E3;min-height: 418px;border-radius: 25px;}
     font-size: 13px;
     color: #777777;
 }
-.cv-expert:nth-last-child(1){
+.professional:nth-last-child(1){
     margin: 0px;
 }
 .inner-sub{ color: #262A74;
     font-size: 15px;
     margin-bottom: 16px;margin-top: 10px;}
-    .list-cv{background: #D9D9D9;
-    width: 44px;
-    border-radius: 50%;
-    height: 44px;
-    font-size: 29px;
-    margin: auto;display:inline-block}
-    .cv-expert{margin: 0px 50px 0px 0px;
-    width: 58%;}
+   
     .upload-faq h2{    padding: 50px 0px;font-weight: bold;
     text-align: center;color: #fff;}
     .upload-faq{background-color: #1FB1A6;    margin-top: 60px;}
@@ -83,9 +78,9 @@ border: 1px solid #2089E3;min-height: 418px;border-radius: 25px;}
     border-bottom: 1px solid rgba(0,0,0,.125);    padding: 1.0rem 1.25rem;
 }
 .custom_accordion .card-header a{color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
-    cursor: pointer;}
+    cursor: pointer;font-weight: 500;}
     .custom_accordion .card-body{color: #fff;}
     .custom_accordion .acc-active:after {
   content: "\f106";
@@ -181,3 +176,51 @@ border: 1px solid #2089E3;min-height: 418px;border-radius: 25px;}
     font-size: 14px;}
     .file-types{color: #888995;
     font-size: 12px;}
+
+    .call-tous button{
+        background: #FCE256;
+    box-shadow: 0px 3px 12px #00000029;
+    border-radius: 20px;
+    border: 0px ;
+    padding: 16px 10px;
+    width: auto;
+    font-weight: 500;outline: none;}
+    .call-tous button i{
+        font-size: 28px;
+    margin-bottom: 10px;
+    }
+    .call-tous{position: fixed;
+        height: auto;
+        transform: translate(-15%,-15%);
+        right: 42px;
+        top: 628px;}
+        .callback-popup .modal-header {
+            flex-direction: column;
+            padding: 20px 26px 20px 26px;
+    border: 0;
+    color: #000 !important;
+        }
+        .callback-popup .modal-body{    padding: 0px 26px 26px;}
+        .callback-popup .modal-dialog {
+            max-width: 560px;
+        }
+        .callback-popup .modal-dialog .modal-header .modal-title{    font-weight: 700;color: #262A74;
+            margin-bottom: 10px;text-align: left;}
+            .callback-popup p{    font-size: 12.1px;color: #000;text-align: left;}
+            .blue-txt{color: #2089E3;}
+            .popup-btn{background: #1db153;
+            border: 1px solid #1db153;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+            padding: 8px 20px;outline: none;}
+            .callback-popup .modal-content {
+            border-radius: 26px;background: #fff;
+        }
+        .resume-popup{    position: absolute;
+            top: -6px;
+            right: -47px;
+            font-size: 2.5rem;
+             font-weight: 500; 
+             opacity: 1.5;color: #fff;
+          }

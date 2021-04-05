@@ -8,6 +8,17 @@
       
     }
     @media only screen and (max-width: 767px) {
+        .call-tous button i {
+            font-size: 18px;
+        }
+        .call-tous button {
+            padding: 16px 10px;
+            font-size: 12px;
+        }
+        .call-tous {
+            right: 0px;
+            top: 550px;
+        }
         .header_txtbig {
             font-size: 24px;
         }
@@ -50,16 +61,12 @@
         .contact-cv {
             width: 100%;
         }
-        .cv-expert {
-            width: auto;
-            margin: 0px 0px 20px 0px;
-        }
         .cv-review {
             padding: 30px 0px;
         }
         .professional {
-            min-height: 230px;
-            margin-top: 20px;
+            min-height: 230px;width: auto;
+            margin-top: 20px; margin: 0px 0px 20px 0px;
         }
         .faster_cv .container {
             padding: 50px 0px;

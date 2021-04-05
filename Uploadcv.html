@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://stage.hiringdoor.in/Rajesh_Design/hiringdoor/css/style.css">
   <link rel="stylesheet" href="style4.css">
   <link rel="stylesheet" href="responsive4.css">
   <link rel="stylesheet" href="iconmoon.css">
@@ -44,43 +45,34 @@
                        <div class="terms">By checking my CV Score  I authorize Naukri to call/SMS  me regarding Naukri Paid services</div>
                    </div>
                 </div>
+                <div class="call-tous">
+                  <button data-toggle="modal" data-target="#myModal"><i class="icon-telephone d-block" aria-hidden="true"></i>Call me back</button>
+              </div> 
                 <div class="cv-review">
                     <h2 class="dark-blue">How do I get my CV reviewed ?</h2>
                     <div class="d-flex justify-content-center align-items-center mt-5 mb-3">
-                        <div class=" cv-expert">
-                            <span class="list-cv">1</span>
                         <div class="professional" >
                             <i class="fa fa-file-text-o" aria-hidden="true"></i>
                             <div class="inner-sub">Upload or fetch resume from Hiringdoor</div>
                             <div class="inner-paragraph">Yes, that’s all that is needed. Upload your resume no matter what state it is in</div>
                         </div>
-                    </div>
-                    <div class=" cv-expert">
-                        <span class="list-cv">2</span>
                         <div class="professional">
                             <i class="fa fa-file-text-o" aria-hidden="true"></i>
                             <div class="inner-sub">Evaluation CV with Experts</div>
                             <div class="inner-paragraph">Our CV Experts evaluate your CV and provide important recommendations</div>
 
                         </div>
-                    </div>
-                    <div class=" cv-expert">
-                        <span class="list-cv">3</span>
                         <div class="professional">
                             <i class="fa fa-file-text-o" aria-hidden="true"></i>
                             <div class="inner-sub">Get instant Feedback on resume</div>
                             <div class="inner-paragraph">You will get your resume score. If it’s high, great! If Score is low, You can get detail feedback from our expert to fix the issues.</div>
 
                         </div>
-                    </div>   
-                    <div class=" cv-expert">
-                        <span class="list-cv">4</span> 
                         <div class="professional">
                             <i class="fa fa-file-text-o" aria-hidden="true"></i>
                             <div class="inner-sub">Job-winning CV!</div>
                             <div class="inner-paragraph">Implement our recommendations for a job‑winning CV!</div>
                         </div>
-                    </div>    
                     </div>
                 </div>
         </div>
@@ -99,7 +91,7 @@
                     </h5>
                   </div>
               
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
                       Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                     </div>
@@ -195,6 +187,7 @@
     </section>
     <section class="faster_cv">
       <div class="container">
+        <img src="proffesionlcv.png" class="mb-4"  />
         <h1>Get hired faster with a Professional CV</h1>
         <p>Professional CVs are 3 times more likely to be viewed by employers</p>
         <button>Get a Professional CV</button>
@@ -220,5 +213,50 @@
           </div>
       </div>
           </section>
+              <!-- The Modal -->
+  <div class="modal fade callback-popup " id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <button type="button" class="close resume-popup" data-dismiss="modal">&times;</button>
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h2 class="modal-title dark-blue">Request a call back</h2>
+          <p>Request a free callback from one of our CV Experts and we will be glad to assist. For more immediate attention, please call <span class="blue-txt">+971-4-449-3193</span> (UAE) or <span class="blue-txt">+962-6-550-7445</span> (international).</p>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                    <select class="form-control">
+                        <option>Plese Select Type</option>
+                    </select>
+                  </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="email" placeholder="Name" name="email">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="pwd" placeholder="Email Address" name="pswd">
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-lg-4 col-xs-4 col-sm-4 col-md-4">
+                            <select class="form-control">
+                                <option>Plese Select Type</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-8 col-xs-8 col-sm-8 col-md-8">
+                            <input type="number" class="form-control" id="pwd" placeholder="Phone number (Optional)" name="pswd">
+                        </div>
+                    </div>
+                  </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Additional comments (Optional)"  cols="3" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary popup-btn w-100">Send</button>
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
